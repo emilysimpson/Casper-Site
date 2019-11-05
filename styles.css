@@ -68,6 +68,7 @@ button {
     justify-content: space-around;
     align-items: center;
     background: rgb(240, 240, 240);
+    padding-bottom: 20px; 
 }
 #highlights {
     display: flex;
@@ -108,4 +109,41 @@ button {
 }
 .item > img {
     width: 250px;
+}
+
+#science {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixlib=rb-1.2.1&w=1000&q=80"); 
+    color: white; 
+    padding-bottom: 20px; 
+}
+
+#facts {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.fact {
+    width: 50%; 
+}
+
+.description {
+    width: 70%; 
+    text-align: center; 
+    margin: auto; 
+}
+
+.fact {
+    text-align: center;
+    align-items: center; 
+}
+
+.fact > img {
+    width: 200px; 
 }
