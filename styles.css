@@ -129,10 +129,6 @@ button {
     text-align: center; 
 }
 
-.fact {
-    width: 50%; 
-}
-
 .description {
     width: 70%; 
     text-align: center; 
@@ -140,6 +136,7 @@ button {
 }
 
 .fact {
+    width: 50%; 
     text-align: center;
     align-items: center; 
 }
@@ -147,3 +144,31 @@ button {
 .fact > img {
     width: 200px; 
 }
+
+#great-sleep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+#guarantees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+.promise {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+.promise > img {
+    width: 30%;
+}
+
