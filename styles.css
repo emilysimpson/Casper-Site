@@ -62,3 +62,50 @@ button {
     font-weight: bold; 
     width: 20rem; 
 }
+#featured-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(240, 240, 240);
+}
+#highlights {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+}
+.mattress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mattress > img {
+    width: 70%;
+}
+.mattress > p {
+    width: 60%;
+}
+#secondary-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.item {
+    background: white;
+    /* border: lightgray 1px solid; */
+    box-shadow: 0 0 5px lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 25px;
+    padding: 0 50px 50px 50px;
+    height: 400px;
+}
+.item > img {
+    width: 250px;
+}
