@@ -1,0 +1,24 @@
+#navbar {
+    background: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.product-link {
+    padding-right: 5px;
+    color: gray;
+    text-transform: uppercase;
+    font-family: Gill Sans;
+}
+#logo {
+    color: blue;
+    text-transform: initial;
+    font-size: x-large;
+}
