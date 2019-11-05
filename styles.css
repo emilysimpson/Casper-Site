@@ -22,3 +22,43 @@
     text-transform: initial;
     font-size: x-large;
 }
+
+#landing-image {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center; 
+    background-image: url("https://ashleyfurniture.scene7.com/is/image/AshleyFurniture/M69631-M80X32-MOOD-A?$AFHS-PDP-Zoomed$");
+    height: 700px;  
+    background-color: white; 
+    align-items: flex-start;
+    text-align: center; 
+}
+
+img#landing-image { /*not sure how to do this right - not in html*/
+    opacity: 20%;
+}
+
+#promo-links {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 10px; 
+    color:white; 
+    font-family: Gill Sans;
+    align-items: center; 
+    padding: 50px 0px 0px 0px; 
+}
+
+h1 {
+ text-transform: uppercase; 
+}
+
+button {
+    border-radius: 5px; 
+    background-color: white; 
+    color: navy; 
+    text-transform: uppercase; 
+    padding: 15px 50px 15px 50px; 
+    font-weight: bold; 
+    width: 20rem; 
+}
